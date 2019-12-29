@@ -16,26 +16,26 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
 public class Form extends JFrame {
-	JTextField nameField = new JTextField("Justin Kalan");
-	JTextField emailField = new JTextField("reagonite84@gmail.com");
-	JTextField potentialChapterField = new JTextField("ABQ");
-	JTextField phoneField = new JTextField("5052642755");
+	JTextField nameField = new JTextField("Name");
+	JTextField emailField = new JTextField("email");
+	JTextField potentialChapterField = new JTextField("City");
+	JTextField phoneField = new JTextField("Phone number");
 	
-	JLabel basicInfo = new JLabel("Contact Information");
-	JLabel warningLabel = new JLabel("Must fill out Name, valid Email, City and Pick Type and Interest");
-	JLabel nameLabel = new JLabel("Name");
-	JLabel emailLabel = new JLabel("Email");
+	JLabel basicInfo = new JLabel("Contact Information (* means required)");
+	JLabel warningLabel = new JLabel("Enter 1) Name, 2) valid Email,  3) City and Pick  4) Type and 5) Interest");
+	JLabel nameLabel = new JLabel("Name*");
+	JLabel emailLabel = new JLabel("Email*");
 	JLabel phoneLabel = new JLabel("Phone");
-	JLabel chapterLabel = new JLabel("City/Chapter");
+	JLabel chapterLabel = new JLabel("City/Chapter*");
 	
-	JLabel type = new JLabel("I am a...");
+	JLabel type = new JLabel("I am a...*");
 	JRadioButton youngcp = new JRadioButton("Young Catholic (20-39)");
 	JRadioButton seasonedcp = new JRadioButton("Seasoned Catholic (40+)");
 	JRadioButton diocesan = new JRadioButton("Diocesan/Church Employee");
 	JRadioButton religious = new JRadioButton("Priest/Religious");
 	
 	
-	JLabel desire = new JLabel("I want to...");
+	JLabel desire = new JLabel("I want to...*");
 	JRadioButton startAChapter = new JRadioButton("Start a chapter");
 	JRadioButton aboutConference = new JRadioButton("Find out about the conference");
 	JRadioButton becomeMember = new JRadioButton("Become a member");
